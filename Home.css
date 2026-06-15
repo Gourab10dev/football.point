@@ -244,3 +244,270 @@ border-top:2px solid #fffb00;
     background:#ffd700;
     border-radius:20px;
 }
+
+/* ==========================
+   LARGE DESKTOPS (1400px+)
+========================== */
+
+@media screen and (min-width:1400px){
+
+.hero-content h1{
+    font-size:80px;
+}
+
+.hero-content p{
+    font-size:24px;
+}
+
+.logo{
+    font-size:32px;
+}
+
+}
+
+
+/* ==========================
+   LAPTOPS (1024px - 1399px)
+========================== */
+
+@media screen and (max-width:1399px){
+
+.hero-content h1{
+    font-size:60px;
+}
+
+.news-container{
+    grid-template-columns:repeat(3,1fr);
+}
+
+}
+
+
+/* ==========================
+   TABLETS (768px - 1023px)
+========================== */
+
+@media screen and (max-width:1023px){
+
+header{
+    padding:20px 5%;
+}
+
+.logo{
+    font-size:24px;
+}
+
+nav a{
+    margin-left:15px;
+}
+
+.hero{
+    height:60vh;
+}
+
+.hero-content h1{
+    font-size:48px;
+}
+
+.hero-content p{
+    font-size:18px;
+}
+
+.news-container{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.match-card{
+    flex-direction:column;
+    text-align:center;
+    gap:10px;
+}
+
+.live-card{
+    max-width:350px;
+}
+
+}
+
+
+/* ==========================
+   MOBILE (481px - 767px)
+========================== */
+
+@media screen and (max-width:767px){
+
+header{
+    flex-direction:column;
+    gap:15px;
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+}
+
+nav a{
+    margin:0;
+}
+
+.hero{
+    height:55vh;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:38px;
+    line-height:1.2;
+}
+
+.hero-content p{
+    font-size:16px;
+}
+
+.btn{
+    padding:12px 28px;
+}
+
+.news-container{
+    grid-template-columns:1fr;
+}
+
+.news-card img{
+    height:200px;
+}
+
+.live-section,
+.news-section,
+.matches,
+.players{
+    padding:60px 5%;
+}
+
+.live-card{
+    max-width:100%;
+}
+
+.match-card{
+    flex-direction:column;
+    gap:15px;
+    text-align:center;
+}
+
+.player{
+    text-align:center;
+}
+
+footer{
+    margin-top:40px;
+}
+
+}
+
+
+/* ==========================
+   SMALL MOBILE (320px - 480px)
+========================== */
+
+@media screen and (max-width:480px){
+
+.logo{
+    font-size:20px;
+    text-align:center;
+}
+
+nav{
+    gap:8px;
+}
+
+nav a{
+    font-size:14px;
+}
+
+.hero{
+    height:50vh;
+}
+
+.hero-content h1{
+    font-size:28px;
+}
+
+.hero-content p{
+    font-size:14px;
+}
+
+.btn{
+    padding:10px 22px;
+    font-size:14px;
+}
+
+.live-section h2,
+.news-section h2,
+.matches h2,
+.players h2{
+    font-size:24px;
+}
+
+.live-card{
+    padding:20px;
+}
+
+.live-btn{
+    padding:12px 25px;
+    font-size:14px;
+}
+
+.news-card h3{
+    font-size:18px;
+}
+
+.news-card p{
+    font-size:14px;
+}
+
+.match-card{
+    padding:18px;
+    font-size:14px;
+}
+
+.player{
+    padding:18px;
+    font-size:14px;
+}
+
+footer{
+    font-size:13px;
+}
+
+}
+
+
+/* ==========================
+   EXTRA SMALL DEVICES
+========================== */
+
+@media screen and (max-width:360px){
+
+.hero-content h1{
+    font-size:24px;
+}
+
+.hero-content p{
+    font-size:13px;
+}
+
+.logo{
+    font-size:18px;
+}
+
+nav a{
+    font-size:13px;
+}
+
+.btn{
+    font-size:13px;
+}
+
+}
