@@ -443,11 +443,14 @@ nav a{
     font-size:14px;
 }
 
-.live-section h2,
+.live-section h2{
+    font-size:22px;
+}
 .news-section h2,
 .matches h2,
 .players h2{
     font-size:18px;
+    align-items: center;
 }
 
 .live-card{
