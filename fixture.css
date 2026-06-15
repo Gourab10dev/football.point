@@ -1,0 +1,154 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0d1117;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#161b22;
+border-bottom:2px solid #ffd700;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#00df0b;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:25px;
+transition:0.3s;
+font-weight:500;
+}
+
+nav a:hover{
+color:#00df0b;
+}
+
+.hero{
+height:70vh;
+background:
+linear-gradient(rgba(0,0,0,.7),
+rgba(0,0,0,.7)),
+url('fifa-ball.gif');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero-content h1{
+font-size:60px;
+margin-bottom:20px;
+color:#fffb00;
+}
+
+.hero-content p{
+font-size:25px;
+margin-bottom:30px;
+}
+
+.fixtures-section{
+    padding:80px 8%;
+}
+
+.fixtures-section h2{
+    text-align:center;
+    color:#ffffff;
+    margin-bottom:40px;
+    font-size: 30px;
+}
+
+.group-fixture{
+    background:#161b22;
+    border:2px solid #ffd700;
+    border-radius:20px;
+    padding:30px;
+    margin-bottom:25px;
+}
+
+.group-fixture h3{
+    text-align:center;
+    color:#ffd700;
+    margin-bottom:25px;
+    font-size: 30px;
+}
+
+.fixture-card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#0d1117;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:15px;
+}
+
+.team{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:150px;
+}
+
+.team img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid #ffd700;
+}
+
+.team span{
+    margin-top:10px;
+}
+
+.match-info{
+    text-align:center;
+}
+
+.match-info h4{
+    color:#ffd700;
+    font-size:25px;
+    margin:10px 0;
+}
+
+footer{
+margin-top:80px;
+padding:25px;
+text-align:center;
+background:#161b22;
+border-top:2px solid #fffb00;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0d1117;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#ffd700;
+    border-radius:20px;
+}
