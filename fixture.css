@@ -367,33 +367,40 @@ nav a{
 }
 
 .fixture-card{
-    padding:15px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px;
+}
+
+.team{
+    width:35%;
 }
 
 .team img{
-    width:45px;
-    height:45px;
+    width:40px;
+    height:40px;
 }
 
 .team span{
-    font-size:13px;
+    font-size:11px;
 }
 
 .match-info{
-    font-size:13px;
+    width:30%;
+    font-size:11px;
 }
 
 .match-info h4{
-    font-size:18px;
+    font-size:16px;
 }
 
 footer{
     padding:20px;
     font-size:12px;
 }
-
 }
-
 
 /* ===================================
    EXTRA SMALL DEVICES (<360px)
