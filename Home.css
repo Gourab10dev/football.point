@@ -450,7 +450,7 @@ nav a{
 .matches h2,
 .players h2{
     font-size:18px;
-    align-items: center;
+    align-content: center;
 }
 
 .live-card{
