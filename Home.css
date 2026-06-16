@@ -449,6 +449,12 @@ nav a{
     font-size:14px;
 }
 
+.frame iframe{
+    margin-bottom: 25px;
+    height: 300px;
+    width: 50%;
+}
+
 .live-section h2{
     font-size:22px;
 }
